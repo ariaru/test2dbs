@@ -31,7 +31,7 @@ development:
   other:
     <<: *default
     database: test2dbs_other_development
-    migration_paths: db/migrate_other_development
+    migrations_paths: db/migrate_other
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -70,7 +70,7 @@ test:
   other:
     <<: *default
     database: test2dbs_other_test
-    migration_paths: db/migrate_other_development
+    migrations_paths: db/migrate_other
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
