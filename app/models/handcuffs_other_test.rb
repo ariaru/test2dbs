@@ -1,0 +1,2 @@
+class HandcuffsOtherTest < Test2dbsOtherDevelopmentRecord
+end
